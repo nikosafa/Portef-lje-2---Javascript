@@ -1,0 +1,188 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif, Arial;
+}
+
+.info-bar {
+    background-color: #efedea;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /* Den første del 15px er top/bottom og 20pz er left/right*/
+}
+
+
+.heading-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.heading-left button {
+    background-color: #efedea;
+    border: none;
+    cursor: pointer; /* Skift udsende af cursor */
+    border-radius: 5px; /* Runder hjørner */
+    padding: 10px; /* Hvis man  kun giver én værdi, gælder det alle fire sider.*/
+    margin-right: 15px;
+}
+
+
+.logo {
+    color: #002643;
+    font-size: 30px;
+}
+
+
+.search-bar {
+    margin-top: 100px;
+    position:relative;
+    display: flex;
+    align-items: center; /* Centrer den vandret */
+    justify-content: center; /* Centrer den lodret */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    width: 400px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border:none;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+
+input[type="text"] { /* Betyder at det kun gælder input-felter hvor en kunde kan skrive tekst. */
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    flex-grow: 1; /* Lader input-feltet vokse til den resterende plads.*/
+    margin-right: 5px;
+    border: 1px solid;
+    outline: none;
+}
+
+
+button[type="submit"] { /* Når en 'button' får denne type, vil den tekst som brugeren har skrevet i søgefeltet blive sendt ind i hjemmesidens software. */
+    background-color: #efedea;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #002643;
+    font-weight: bold;
+}
+
+
+.disclaimer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+.disclaimer-ONE, .disclaimer-TWO {
+    flex: 1; /* lader begge bokse vokse ens */
+    background-color: #c6e7c9;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Skriver kun farven til boks to her, da den bruger det sidste jeg har skrevet lige oven-over til resten af stylingen. */
+.disclaimer-TWO {
+    background-color: #feece5;
+}
+
+
+.disclaimer-ONE a, .disclaimer-TWO a {
+    color: #002643;
+    text-decoration: none; /
+    text-align: center;
+}
+
+
+
+.SubCategories {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+
+.SubCategories div {
+    text-align: center;
+    margin: 5px;
+}
+
+
+.SubCategories img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.SubCategories a {
+    text-decoration: none;
+    color: black;
+}
+
+.SubCategories a:hover {
+    text-decoration: underline;
+}
+
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+
+}
+
+
