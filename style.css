@@ -43,7 +43,6 @@ header {
 
 
 .search-bar {
-    margin-top: 100px;
     position:relative;
     display: flex;
     align-items: center; /* Centrer den vandret */
@@ -79,7 +78,7 @@ input[type="text"] { /* Betyder at det kun gælder input-felter hvor en kunde ka
 }
 
 
-button[type="submit"] { /* Når en 'button' får denne type, vil den tekst som brugeren har skrevet i søgefeltet blive sendt ind i hjemmesidens software. */
+button[type="submit"] {
     background-color: #efedea;
     border: none;
     cursor: pointer;
