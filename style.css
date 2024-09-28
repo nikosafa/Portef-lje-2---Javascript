@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px; /* Den første del 15px er top/bottom og 20pz er left/right*/
+    padding: 15px 20px; /* Den første del 15px er top/bottom og 20px er left/right*/
 }
 
 
